@@ -1,0 +1,20 @@
+.\35 grid-layout {
+width: 800px;
+margin: 0 auto;
+}
+
+#logo{
+    height: 120px;
+}
+
+#header{
+    min-height: initial;
+}
+
+.homepage #wrapper{
+    background: #FFFFFF url(images/img03.png) repeat-x left top !important;
+}
+
+#map{
+    min-height: 300px;
+}

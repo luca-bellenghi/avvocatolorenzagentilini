@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+
+<!--
+    Synchronous: A responsive HTML5 website template by HTML5Templates.com
+    Released for free under the Creative Commons Attribution 3.0 license (html5templates.com/license)
+    Visit http://html5templates.com for more great templates or follow us on Twitter @HTML5T
+-->
+
+<html>
+<head>
+<title>Avvocato Lorenza Gentilini</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link rel="stylesheet" href="css/5grid/core.css" />
+<link rel="stylesheet" href="css/5grid/core-desktop.css" />
+<link rel="stylesheet" href="css/5grid/core-800px.css" />
+<link rel="stylesheet" href="css/5grid/core-noscript.css" />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/style-desktop.css" />
+<link rel="stylesheet" href="css/custom.css" />
+<script src="css/5grid/jquery.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/detectizr/1.5.0/detectizr.min.js"></script>
+<!--[if IE 9]><link rel="stylesheet" href="css/style-ie9.css" /><![endif]-->
+</head><body class="homepage">
+<div id="wrapper">
+    <header id="header">
+        <div class="5grid-layout">
+            <div class="row">
+                <div class="12u" id="logo"> <!-- Logo -->
+                    <h1><a href="#" class="mobileUI-site-name">Lorenza Gentilini</a></h1>
+                    <p>Avvocato civilista</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="page">
+        <div class="5grid-layout">
+            <div class="row">
+                <div class="12u">
+                    <div id="banner">
+                        <div class="banner-border"><a href="#"><img src="images/hammer.jpg" alt=""></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="5grid-layout">
+                <div class="row">
+                    <div class="12u mobileUI-main-content">
+                        <div id="content">
+                            <section>
+                                <div class="post">
+                                    <h2>Aree di competenza</h2>
+                                    <p>Welcome to <strong>Synchronous</strong>, a free responsive HTML5 website template designed
+                                    by <a href="http://html5templates.com/">HTML5Templates.com</a>. It features a stylish design, neutral color scheme, and a large, easily replaceable banner area. And like all of our templates, it is built on HTML5 and CSS3, has full responsive support for desktops, tablets, and mobile devices, and is 100% free to use personally or commercially under the <a href="http://html5templates.com/license/">Creative Commons license</a>. Be sure to check out our <a href="http://html5templates.com/">website</a> for more awesome free HTML5 templates and follow us on <a href="http://twitter.com/HTML5T">Twitter</a> for updates and new releases! Enjoy!</p>
+                                    <p>&nbsp;</p>
+                                    <p>Aliquam erat volutpat. Pellentesque tristique ante ut risus. Quisque dictum. Integer nisl risus, sagittis convallis, rutrum id, elementum congue, nibh. Suspendisse dictum porta lectus. Donec placerat odio vel elit. Nullam ante orci, pellentesque eget, tempus quis, ultrices in, est. Curabitur sit amet nulla. Nam in massa. Sed vel tellus. Curabitur sem urna, consequat vel, suscipit in, mattis placerat, nulla. Sed ac leo. Pellentesque imperdiet. Nulla enim eros, porttitor eu, tempus id, varius non, nibh. Duis enim nulla, luctus eu, dapibus lacinia, venenatis id, quam. Vestibulum imperdiet, magna nec eleifend.</p>
+                                    <p>&nbsp; </p>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="5grid-layout">
+    <div class="row" id="footer-content">
+        <div class="12u">
+            <section id="box2">
+                <h2>Contatti</h2>
+                <div class="border-img">
+                    <div id="map"></div>
+                </div>
+                <div>
+                    <p>Via Quarantola n° 3, 48022 Lugo (RA)</p>
+                    <p class="phone">Telefono: <span>0545 31921</span></p>
+                    <p>Fax: 0545/909434</p>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+<div id="copyright" class="5grid-layout">
+    <section>
+        <p>&copy; Avv. Lorenza Gentilini | Images: <a href="http://www.flickr.com/photos/ssalonso/3989418655/in/photolist-75wPbg-9RTMmi-nx85fR-7tMhYH-5CytxT-4rREYw-a43dho-a43djd-a43cPS-a3ZkAV-a3ZmdR-69Q6Pd-69Q6DN-69Q7rC-69Q6od-69Q7k5-69KUin-69KUCP-69KTT6-83doD4-69Q7Hq-69KTEB-69Q7od-69Q73s-69Q6rY-69KUmH-69Q7uJ-69Q78m-69KU8i-69KTYa-69KUGe-69KV5c-69Q7zq-69KUqB-acwDQd-eepuhY-a43cNN-6My8hn-a43dim-odeG9v-9cpBQg-4AorkX-5GwtAP-69uL3b-hSv3Js-8KKiPC-iiBoyy-cEbVDC-7B5A8M-fJdNd9">ssalonso</a> | Design: <a href="http://html5templates.com/">HTML5Templates.com</a></p>
+    </section>
+</div>
+<script type="text/javascript">
+    $(document).ready(function(){
+        var map;
+        function initialize() {
+        var latlng = new google.maps.LatLng(44.42694,11.91532);
+        var mapOptions = {
+            zoom: 16,
+            center: latlng
+        };
+        map = new google.maps.Map($('#map')[0], mapOptions);
+        var marker = new google.maps.Marker({position: latlng, map: map});
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+
+        debugger;
+        if (Modernizr.Detectizr.device.type === 'mobile'){
+            $('p.phone span').wrap("<a href='tel:0545 31921'></a>");
+        }
+    })
+</script>
+</body>
+</html>
