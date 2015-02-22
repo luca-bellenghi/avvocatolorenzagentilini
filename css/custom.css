@@ -38,7 +38,7 @@
         padding: 0;
     }
     #map{
-        min-height: initial;
+        min-height: 100px;
     }
     #footer-content{
         padding: 0;
@@ -59,7 +59,7 @@
         height: 200px;
     }
    #map{
-        min-height: initial;
+        min-height: 100px;
     }
  }
 
@@ -72,7 +72,7 @@
         height: 200px;
     }
    #map{
-        min-height: initial;
+        min-height: 220px;
     }
  }
 
@@ -80,12 +80,13 @@
  @media screen and (min-width: 768px) and (max-width:1023px){
     .\35 grid-layout {
         width: 800px;
+        margin: 0 5px;
     }
     #logo{
-        height: 200px;
+        height: 150px;
     }
    #map{
-        min-height: initial;
+        min-height: 300px;
     }
 
  }
@@ -93,15 +94,28 @@
  @media screen and (min-width: 1024px) and (max-width:1200px){
     .\35 grid-layout {
         width: 800px;
+        margin: 0 5px;
     }
     #logo{
-        height: 200px;
+        height: 150px;
     }
    #map{
-        min-height: initial;
+        min-height: 300px;
     }
 
  }
- /* monitor wide */
- @media screen and (min-width: 1201px){
+
+.go-to-contact{
+     width: 100px;
+     text-decoration: none;
+     padding: 7px 0px 7px 0px;
+     background: #CEC3A0;
+     border-radius: 5px;
+     line-height: normal;
+     text-align: center;
+     text-transform: uppercase;
+     text-shadow: 1px 1px 1px #8A8B71;
+     font-family: 'Abel', sans-serif;
+     font-size: 14px;
+     color: #FFFFFF;
  }
