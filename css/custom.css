@@ -131,3 +131,7 @@ p.paragraph:last-child{
     margin-bottom:0;
 }
 
+#banner img {
+    display: block;
+    width: 100%;
+}
