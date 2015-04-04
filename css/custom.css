@@ -23,6 +23,9 @@
  body {
     font-size: 12pt;
  }
+ b{
+     font-weight:bold !important;
+ }
 
 /* CSS Responsive Design */
 /* smartphone verticale */
