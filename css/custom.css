@@ -103,7 +103,11 @@
     }
 
  }
-
+ @media screen and (min-width: 1024px){
+    .go-to-contact{
+        right: 220px !important;
+    }
+ }
 .go-to-contact{
      width: 100px;
      text-decoration: none;
