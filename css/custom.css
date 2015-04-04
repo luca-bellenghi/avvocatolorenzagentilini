@@ -135,3 +135,11 @@ p.paragraph:last-child{
     display: block;
     width: 100%;
 }
+#contatti {
+    display:block;
+}
+#contatti img{
+    width:32px !important;
+    display:inline !important;
+    height:32px !important;
+}
