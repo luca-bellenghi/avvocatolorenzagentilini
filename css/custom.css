@@ -31,8 +31,7 @@
 /* smartphone verticale */
  @media screen and (max-width: 320px){
     .\35 grid-layout {
-        width: 310px;
-        margin: 0 5px;
+        width: 300px;
     }
     #logo{
         height: 200px;
@@ -52,6 +51,13 @@
     #copyright{
       padding: 20px 0;
     }
+    div.contacts > div{
+        float:none !important;
+    }
+    div.contacts > div a{
+        font-size:14px;
+    }
+
  }
  /* smartphone orizzontale*/
  @media screen and (min-width: 321px) and (max-width: 480px){
@@ -64,6 +70,14 @@
    #map{
         min-height: 100px;
     }
+
+    div.contacts > div{
+        float:none !important;
+    }
+   div.contacts > div a{
+        font-size:14px;
+    }
+
  }
 
  /* misure intermedie smartphone e tablet */
@@ -143,3 +157,15 @@ p.paragraph:last-child{
     display:inline !important;
     height:32px !important;
 }
+
+div.contacts div.contactleft{
+    float:left;
+}
+div.contacts div.contactright{
+    float:right;
+}
+div.contacts div.contactright a{
+   display:block;
+}
+.paragraph{
+  text-align: justify;}

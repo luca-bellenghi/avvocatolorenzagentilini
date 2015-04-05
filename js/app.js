@@ -25,7 +25,7 @@ $(document).ready(function(){
     }
     else{
 
-        var map_url = "http://maps.googleapis.com/maps/api/staticmap?center=Via%20Quarantola%203%20Lugo%20IT&zoom=14&size=750x350&maptype=roadmap&markers=color:red%7Clabel:S%7C44.42694,11.91532"
+        var map_url = "images/staticmap.png"
         $('#map').append("<a href="+"http://www.google.it/maps/place/Via+Quarantola,+3,+48022+Lugo+RA/@44.42694,11.91532,17z/data=!3m1!4b1!4m2!3m1!1s0x477e0333fda3dc85:0xb9d6bb66b15ec0b7"+"><img src="+ map_url +">");
         $('p.phone span').wrap("<a href='tel:0545 31921'></a>");
     }
