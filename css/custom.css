@@ -57,7 +57,9 @@
     div.contacts > div a{
         font-size:14px;
     }
-
+    div.contacts div.contactright a{
+       display:block;
+    }
  }
  /* smartphone orizzontale*/
  @media screen and (min-width: 321px) and (max-width: 480px){
@@ -78,10 +80,17 @@
         font-size:14px;
     }
 
+    div.contacts div.contactright a{
+       display:block;
+    }
+    div.contacts > div{
+        float:none !important;
+    }
+
  }
 
  /* misure intermedie smartphone e tablet */
- @media screen and (min-width: 481px) and (max-width:767px){
+ @media screen and (min-width: 481px) and (max-width:768px){
     .\35 grid-layout {
         width: 470px;
     }
@@ -91,10 +100,18 @@
    #map{
         min-height: 220px;
     }
+
+    div.contacts div.contactright a{
+       display:block;
+    }
+    div.contacts > div{
+        float:none !important;
+    }
+
  }
 
  /* tablet */
- @media screen and (min-width: 768px) and (max-width:1023px){
+ @media screen and (min-width: 769px) and (max-width:1023px){
     .\35 grid-layout {
         width: 800px;
     }
@@ -164,8 +181,6 @@ div.contacts div.contactleft{
 div.contacts div.contactright{
     float:right;
 }
-div.contacts div.contactright a{
-   display:block;
-}
+
 .paragraph{
   text-align: justify;}
